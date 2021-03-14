@@ -18,13 +18,13 @@
 body {
   background-color: var(--primary-font-color);
   color: var(--primary-text-color);
-  font-family: roboto, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
 h1 h2 h3 h4 h5 h6 {
-  font-family: roboto, sans-serif;
+  font-family: Raleway, sans-serif;
   color: var(--title-text-color);
 }
 
@@ -35,7 +35,7 @@ li {
 .logo {
   color: var(--title-text-color);
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -103,7 +103,7 @@ li {
 .services-title {
   color: #ffffff;
   text-transform: uppercase;
-  font-family: Roboto;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -129,7 +129,7 @@ li {
 .logo-colors {
   color: #ffffff;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
