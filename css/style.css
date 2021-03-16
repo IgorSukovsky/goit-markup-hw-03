@@ -18,7 +18,7 @@
 body {
   background-color: var(--primary-font-color);
   color: var(--primary-text-color);
-  font-family: Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -44,6 +44,7 @@ li {
   color: var(--secondary-text-color);
 }
 
+
 .nav-link {
   color: var(--title-text-color);
   text-decoration: none;
@@ -62,6 +63,7 @@ li {
 .nav-link:focus {
   color: var(--secondary-text-color);
 }
+
 .contact-link {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -69,6 +71,8 @@ li {
   font-size: 14px;
   line-height: 1.1;
   font-style: normal;
+  font-family: Roboto; 
+  letter-spacing: 0.02em;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -85,6 +89,7 @@ li {
   line-height: 1.6;
   cursor: pointer;
   border: none;
+  font-style: normal;
 }
 
 .button-portfolio:hover,
@@ -101,27 +106,44 @@ li {
 }
 
 .services-title {
-  color: #ffffff;
+  color: var(--primary-font-color);
   text-transform: uppercase;
-  font-family: Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
 }
 
 .button-services {
-  display: flex;
-  letter-spacing: 0.06em;
-  color: #ffffff;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-style: 400;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  background: #2196f3;
+  line-height: 1.9;
+  background-color: var(--secondary-text-color);
+  color: var(--primary-font-color);
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
+
+.button-services:hover {
+  color: var(--secondary-text-color);
+}
+  /* identical to box height, or 187% */
+  /* letter-spacing: 0.06em;
+  color: var(--primary-font-color);
+  font-style: 400;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  position: relative;
+  left: 50%;
+  text-transform: uppercase;
+  background-color: var(--secondary-text-color); */
+  }
 
 .footer {
   background: #2f303a;
@@ -142,5 +164,5 @@ li {
 .class-li {
   font-style: normal;
   line-height: 1.7;
-  color: color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
